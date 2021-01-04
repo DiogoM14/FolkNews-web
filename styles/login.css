@@ -23,6 +23,14 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
   }
 
+  .title h3 {
+    font-size: 46px !important;
+  }
+
+  .title h4 {
+    font-size: 36px !important;
+  }
+
   .login {
     padding: 30px 15px !important;
     border-radius: 4px !important;
@@ -55,7 +63,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .col-md-5 h1 {
   font-weight: bold;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   font-size: 38px;
   color: #e5434e;
 }
@@ -76,15 +84,17 @@ h1, h2, h3, h4, h5, h6 {
   padding: 60px 60px;
   
   border-radius: 8px;
-  stroke: #C2C2C2;
+  border: 1px solid #C2C2C2;
 }
 
 .login h1 {
   text-align: center;
+  font-weight: medium;
+  color: #333333;
 }
 
 form .form-group label {
-  color: #333333;
+  color: #555555;
   margin: 0;
   font-weight: 700;
 }
@@ -109,28 +119,50 @@ form .form-check input {
 
 .btn-primary {
   width: 100%;
-  background: #e5434e;
+  height: 50px;
+  background: #C62828;
   border: none;
   font-weight: 700;
+
+  transition: 0.3s;
 }
 
 .btn-primary:hover {
-  background: #962d34;
+  background-color: #C62828;
+  opacity: 0.3;
   border: none;
 }
 
 hr {
-  background: rgb(41, 41, 46);
+  background: #C2C2C2;
 }
 
-.btn-secondary {
-  width: 100%;
-  background: rgb(41, 41, 46);
-  border: none;
-  font-weight: 700;
+.register-section {
+  display: flex;
+  text-align: center;
+  font-weight: medium;
+  font-size: 15px;
 }
 
-.btn-secondary:hover {
-  background: rgb(35, 35, 41);
-  border: none;
+.login .register-section h5, h6 {
+  font-weight: medium;
+  font-size: 15px;
+}
+
+.login h5 {
+  color: #333333;
+}
+
+.login .register-section a {
+  text-decoration: none;
+}
+
+.login .register-section h6 {
+  color: #C62828;
+
+  transition: 0.3s;
+}
+
+.login .register-section h6:hover, h6::selection {
+  color: #8b1919;
 }
