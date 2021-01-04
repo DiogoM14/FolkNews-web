@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  --webkit-font-smoothing: antialiased;
+  background: rgb(255,255,255);
+}
+
+h1, h2, h3, h4, h5, h6, span {
+  color: rgb(255,255,255);
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.row {
+  height: 100vh;
+  padding: 0;
+}
+
+.col-md-12 {
+  padding: 0;
+  text-align: center;
+}
+
+.bg-dark .container-fluid .logout {
+  background: #e5434e;
+  color: rgb(225, 225, 230);
+  border: none;
+
+  margin-left: 2%;
+}
+
+.bg-dark .container-fluid .logout:focus {
+  background: #962d34;
+  border: none;
+}
+
+.bg-dark {
+  background: rgb(18, 18, 20) !important;
+}
+
+.bg-dark .container-fluid a {
+  color: rgb(225, 225, 230);
+  font-weight: bold;
+}
+
+.bg-dark .container-fluid span {
+  font-weight: bold;
+  color: #e5434e;
+}
+
+.bg-dark .container-fluid input {
+  background: rgb(32, 32, 36);
+  border-style: none;
+  margin-right: 2%;
+  color: rgb(225, 225, 230);
+}
+
+.bg-dark .container-fluid button {
+  background: rgb(32, 32, 36);
+  color: rgb(225, 225, 230);
+  border: none;
+}
+
+.bg-dark .container-fluid button:focus {
+  background: rgb(18, 18, 20);
+  border: none;
+}
