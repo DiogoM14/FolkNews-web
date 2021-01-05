@@ -15,57 +15,57 @@ h1, h2, h3, h4, h5, h6, span {
   font-family: 'Ubuntu', sans-serif;
 }
 
-.row {
+.navbar .container, .navbar .container-fluid, .navbar .container-lg, .navbar .container-md, .navbar .container-sm, .navbar .container-xl {
+  /* justify-content: start !important; */
+}
+
+/* .row {
   height: 100vh;
   padding: 0;
-}
+} */
 
 .col-md-12 {
   padding: 0;
   text-align: center;
 }
 
-.bg-dark .container-fluid .logout {
-  background: #e5434e;
-  color: rgb(225, 225, 230);
-  border: none;
+.container-fluid .navbar-brand {
+  background: #2B2B2B;
+  padding: 8px 14px;
+  border-radius: 8px;
+  font-weight: bold;
+  /* justify-content: space-between !important; */
+}
 
+.container-fluid span {
+  font-weight: bold;
+  color: #C62828;
+}
+.container-fluid a {
+  color: #2B2B2B;
+  font-weight: 700;
+  font-size: 24px;
+  text-decoration: none;
+  margin-left: 52px;
+}
+
+.container-fluid .popular {
+  color: #C62828;
+}
+.teste {
+  width: 100vmin;
+}
+.container-fluid .login {
+  background: #2B2B2B;
+  padding: 7px 13px;
+  border: none;
+  border-radius: 20px;
+  
   margin-left: 2%;
+  transition: color 0.3s;
 }
 
-.bg-dark .container-fluid .logout:focus {
-  background: #962d34;
-  border: none;
-}
-
-.bg-dark {
-  background: rgb(18, 18, 20) !important;
-}
-
-.bg-dark .container-fluid a {
-  color: rgb(225, 225, 230);
-  font-weight: bold;
-}
-
-.bg-dark .container-fluid span {
-  font-weight: bold;
-  color: #e5434e;
-}
-
-.bg-dark .container-fluid input {
-  background: rgb(32, 32, 36);
-  border-style: none;
-  margin-right: 2%;
-  color: rgb(225, 225, 230);
-}
-
-.bg-dark .container-fluid button {
-  background: rgb(32, 32, 36);
-  color: rgb(225, 225, 230);
-  border: none;
-}
-
-.bg-dark .container-fluid button:focus {
-  background: rgb(18, 18, 20);
+.container-fluid .login:hover {
+  background: #333333;
   border: none;
 }
