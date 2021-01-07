@@ -38,9 +38,16 @@ h1, h2, h3, h4, h5, h6, button {
   }
 }
 
-@media (max-width: 1300px) {
+  @media (max-width: 1300px) {
   .container .bg-img {
     width: 0px !important;
+  }
+
+  @media (max-width: 1024px) {
+    .bg-img-cloud {
+      width: 0px !important;
+    }
+
   }
 }
 
@@ -49,6 +56,14 @@ h1, h2, h3, h4, h5, h6, button {
   width: 450px;
   left: 0;
   top: 29px;
+}
+
+.bg-img-cloud {
+  position: absolute;
+  z-index: -1;
+  /* width: 100%; */
+  right: 0;
+  bottom: 0;
 }
 
 .container {
