@@ -7,7 +7,7 @@
 
 body {
   --webkit-font-smoothing: antialiased;
-  background: rgb(255,255,255);
+  background: #f3f3f3;
 }
 
 h1, h2, h3, h4, h5, h6, span {
@@ -15,57 +15,82 @@ h1, h2, h3, h4, h5, h6, span {
   font-family: 'Ubuntu', sans-serif;
 }
 
-.navbar .container, .navbar .container-fluid, .navbar .container-lg, .navbar .container-md, .navbar .container-sm, .navbar .container-xl {
-  /* justify-content: start !important; */
-}
+@media (max-width: 1250px) {
+  .navbar .right a {
+    margin-left: 20px !important;
+  }
 
-/* .row {
-  height: 100vh;
-  padding: 0;
-} */
+  .navbar .right a img {
+    width: 40px !important;
+  }
+
+  .navbar-light .navbar-brand img {
+    width: 130px !important;
+  }
+}
 
 .col-md-12 {
   padding: 0;
   text-align: center;
 }
 
-.container-fluid .navbar-brand {
-  background: #2B2B2B;
-  padding: 8px 14px;
-  border-radius: 8px;
-  font-weight: bold;
-  /* justify-content: space-between !important; */
+.navbar-light {
+  padding: 16px 58px 0 58px !important;
 }
 
-.container-fluid span {
-  font-weight: bold;
-  color: #C62828;
+.navbar-light .navbar-brand img {
+  width: 150px;
 }
-.container-fluid a {
-  color: #2B2B2B;
-  font-weight: 700;
-  font-size: 24px;
+
+.navbar-light .right {
+
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.navbar .right a {
+  color: #333333;
+  font-family: "Ubuntu";
   text-decoration: none;
-  margin-left: 52px;
+  margin-left: 56px;
 }
 
-.container-fluid .popular {
+.navbar .right .flag {
   color: #C62828;
-}
-.teste {
-  width: 100vmin;
-}
-.container-fluid .login {
-  background: #2B2B2B;
-  padding: 7px 13px;
-  border: none;
-  border-radius: 20px;
-  
-  margin-left: 2%;
-  transition: color 0.3s;
+  font-family: "Ubuntu";
+  text-decoration: none;
 }
 
-.container-fluid .login:hover {
-  background: #333333;
-  border: none;
+.input-group-text {
+  background: #fff;
 }
+
+.mb-3 {
+  margin-top: 48px;
+}
+
+.separator {
+  margin: 58px;
+  display: flex;
+  align-items: center;
+}
+
+.separator h1 {
+  color: #333333;
+  font-size: 28px;
+  margin-left: 16px;
+  margin-right: 26px;
+}
+
+.separator hr {
+  background: #2B2B2B;
+  width: 100%;
+  height: 1px;
+
+  opacity: .5;
+  border-radius: 5px;
+}
+
+/* .card .mb-3 {
+  margin: 58px !important;
+} */

@@ -38,7 +38,7 @@ h1, h2, h3, h4, h5, h6, button {
   }
 }
 
-  @media (max-width: 1300px) {
+  @media (max-width: 1600px) {
   .container .bg-img {
     width: 0px !important;
   }
