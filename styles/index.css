@@ -45,12 +45,12 @@ h1, h2, h3, h4, h5, h6, span {
   padding: 16px 58px 0 58px !important;
 }
 
-.navbar-light .navbar-brand img {
+.navbar-light .navbar-brand .user {
   width: 150px;
 }
 
 .navbar-light .right {
-
+  display: flex;
   font-size: 22px;
   font-weight: 500;
 }
@@ -59,7 +59,7 @@ h1, h2, h3, h4, h5, h6, span {
   color: #333333;
   font-family: "Ubuntu";
   text-decoration: none;
-  margin-left: 56px;
+  margin-left: 30px;
 }
 
 .navbar .right .flag {
