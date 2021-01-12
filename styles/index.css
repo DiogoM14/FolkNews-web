@@ -53,9 +53,11 @@ h1, h2, h3, h4, h5, h6, span {
   display: flex;
   font-size: 22px;
   font-weight: 500;
+  align-items: center;
 }
 
 .navbar .right a {
+
   color: #333333;
   font-family: "Ubuntu";
   text-decoration: none;
