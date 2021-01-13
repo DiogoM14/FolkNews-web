@@ -85,7 +85,7 @@ h1, h2, h3, h4, h5, h6, span {
 }
 
 .separator {
-  margin: 58px;
+  margin: 58px 58px 0 58px;
   display: flex;
   align-items: center;
 }
@@ -93,8 +93,8 @@ h1, h2, h3, h4, h5, h6, span {
 .separator h1 {
   color: #333333;
   font-size: 28px;
-  margin-left: 16px;
-  margin-right: 26px;
+  /* margin-left: 16px;
+  margin-right: 26px; */
 }
 
 .separator hr {
@@ -175,8 +175,20 @@ h1, h2, h3, h4, h5, h6, span {
 .news .card-header {
   background: #fff;
   color: #C62828;
+  font-weight: 700;
+  text-align: center;
 }
 
 .news span {
   color: #C62828; 
+}
+
+.btn-primary {
+  background: #C62828;
+  margin: 0 58px 0 58px;
+  border: none;
+}
+
+.btn-primary:hover {
+  background: #9e2020;
 }
