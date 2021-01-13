@@ -104,8 +104,19 @@ h1, h2, h3, h4, h5, h6, span {
   margin: 58px !important;
 } */
 
+.grid {
+  display: grid;
+
+  grid-template-columns: auto auto;
+  grid-template-rows: auto;
+  grid-template: 
+  "a b"
+  "a b"
+  "a b";
+}
+
 .col-md-4 img {
-  width: 100%;
+  width: 100%; 
   height: 100%;
   object-fit: cover;
 }
@@ -145,4 +156,21 @@ h1, h2, h3, h4, h5, h6, span {
   max-width: 90%;
   font-size: 16px;
   color: #333333;
+}
+
+.news {
+  text-align: left;
+  margin-right: 58px;
+  /* width: 460px; */
+  justify-self: end;
+  grid-area: b;
+}
+
+.news .card-header {
+  background: #fff;
+  color: #C62828;
+}
+
+.news span {
+  color: #C62828; 
 }
