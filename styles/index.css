@@ -36,6 +36,12 @@ h1, h2, h3, h4, h5, h6, span {
   }
 }
 
+@media (max-width: 1700px) {
+  .news {
+    width: 18rem !important;
+  }
+}
+
 .col-md-12 {
   padding: 0;
   text-align: center;
@@ -100,9 +106,9 @@ h1, h2, h3, h4, h5, h6, span {
   border-radius: 5px;
 }
 
-/* .card .mb-3 {
-  margin: 58px !important;
-} */
+.mb-3 {
+  cursor: pointer;
+}
 
 .grid {
   display: grid;
@@ -160,7 +166,7 @@ h1, h2, h3, h4, h5, h6, span {
 
 .news {
   text-align: left;
-  margin-right: 58px;
+  margin: 58px 58px 0 0;
   /* width: 460px; */
   justify-self: end;
   grid-area: b;
