@@ -8,6 +8,7 @@
 body {
   --webkit-font-smoothing: antialiased;
   background: #f3f3f3;
+      /* justify-content: center !important; */
 }
 
 h1, h2, h3, h4, h5, h6, span {
@@ -39,6 +40,13 @@ h1, h2, h3, h4, h5, h6, span {
 @media (max-width: 1700px) {
   .news {
     width: 18rem !important;
+  }
+}
+
+@media (min-width: 2000px) {
+  .col-md-12 {
+    max-width: 90%;
+    margin: auto;
   }
 }
 
