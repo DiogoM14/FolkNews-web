@@ -55,6 +55,13 @@ h1, h2, h3, h4, h5, h6, span {
   }
 }
 
+@media (min-width: 980px) {
+  article {
+    max-width: 50%;
+    margin: auto;
+  }
+}
+
 .col-md-12 {
   padding: 0;
   text-align: center;
@@ -165,6 +172,46 @@ article .image p {
   font-size: 18px;
   color: #555555;
 }
+
+.feedback {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 42px;
+}
+
+.feedback h2 {
+  font-size: 24px;
+  color: #333333;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.icons img {
+  cursor: pointer;
+}
+
+.icons h3 {
+  font-size: 18px;
+  margin: 0 10px;
+  color: #333333;
+}
+
+.icons .red {
+  color: #C62828;
+}
+
+.share-icons img {
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+
 
 footer {
   display: flex;
