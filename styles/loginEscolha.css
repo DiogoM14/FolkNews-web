@@ -118,6 +118,21 @@ h1, h2, h3, h4, h5, h6, button {
   margin: 60px 0;
   
 }
+
+.icon-leitor {
+  width: 45px;
+  height: 45px;
+  margin-bottom: 10px;
+  background: url("../assets/icons/Leitor.svg") no-repeat;
+}
+
+.icon-editor {
+  width: 45px;
+  height: 45px;
+  margin-bottom: 10px;
+  background: url("../assets/icons/Editor.svg") no-repeat;
+}
+
 .retangulo {
   display: flex; 
   flex-direction: column;
@@ -129,23 +144,28 @@ h1, h2, h3, h4, h5, h6, button {
   border-radius: 8px;
   justify-content: center;
   cursor: pointer;
-  transition: background 0.3s;
+  transition: background 0.5s;
 }
 
 .retangulo:hover {
   background-color: #C62828;
 }
 
-.retangulo:hover img {
-  /* filter: invert(1); */
-  stroke: #F3F3F3;
+.retangulos:hover img {
+  opacity: 0;
+}
+
+.retangulo:hover .icon-editor {
+  background: url("../assets/icons/editor-white.svg") no-repeat;
+}
+
+.retangulo:hover .icon-leitor {
+  background: url("../assets/icons/leitor-white.svg") no-repeat;
 }
 
 .retangulo:hover h2 {
-  /* filter: invert(1); */
   color: #f3f3fe;
 }
-
 
 .retangulo h2 {
   font-size: 18px;

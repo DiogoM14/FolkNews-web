@@ -26,15 +26,14 @@
         <form>
         <div class="retangulos">
 
-          <div class="retangulo">
-            <img class="teste" src="./assets/icons/Leitor.svg" alt="">
-            <h2>Leitor</h2>
+          <div id="leitor" class="retangulo" onclick="changeColor('leitor'); return false;">
+            <span class="icon icon-leitor"></span>
+            <h2 class="txt">Leitor</h2>
           </div>
   
-          <div class="retangulo">
-            <img class="teste" src="./assets/icons/Editor.svg" alt="">
-            
-            <h2>Leitor</h2>
+          <div id="editor" class="retangulo editor" onclick="changeColor('editor'); return false;">
+            <span class="icon icon-editor"></span>
+            <h2>Editor</h2>
           </div>
 
         </div>
@@ -50,6 +49,7 @@
     </div>
     <img class="bg-img-cloud" src="./assets/images/cloud-image.svg" alt="">
   </div>
+  <script src="./scripts/changeColor.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 </body>
 </html>
