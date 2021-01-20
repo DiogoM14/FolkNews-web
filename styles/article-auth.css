@@ -211,6 +211,135 @@ article .image p {
   cursor: pointer;
 }
 
+.container {
+  padding: 0;
+}
+
+.be-comment-block {
+    border-radius: 8px;
+    padding: 34px 46px;
+    border:1px solid #c2c2c2;
+    background: #fff;
+}
+
+.comments-title {
+  /* margin-left: 25%; */
+  margin-top: 40px;
+    font-size: 24px;
+    color: #333333;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.be-img-comment {
+    width: 60px;
+    height: 60px;
+    float: left;
+    margin-bottom: 15px;
+}
+
+.be-ava-comment {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.be-comment-content {
+    margin-left: 80px;
+}
+
+.be-comment-content span {
+    display: inline-block;
+    width: 49%;
+    margin-bottom: 15px;
+}
+
+.be-comment-name {
+    font-size: 16px;
+    text-align: left;
+    color: #333333;
+}
+
+.be-comment-content a {
+    color: #383b43;
+}
+
+.be-comment-content span {
+    display: inline-block;
+    width: 49%;
+    margin-bottom: 15px;
+}
+
+.be-comment-time {
+    text-align: right;
+}
+
+.be-comment-time {
+    font-size: 11px;
+    color: #555555;
+}
+
+.be-comment-text {
+    font-size: 13px;
+    line-height: 18px;
+    color: #555555;
+    display: block;
+    background: #f3f3f3;
+    border: 1px solid #c2c2c2;
+    padding: 15px 20px 20px 20px;
+    text-align: left;
+    border-radius: 8px;
+}
+
+
+
+.form-group .form-input {
+    font-size: 13px;
+    line-height: 50px;
+    font-weight: 400;
+    color: #555555;
+    width: 100%;
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid #c2c2c2;
+    border-radius: 3px;
+}
+
+.form-group.fl_icon .form-input {
+    padding-left: 70px;
+}
+
+.form-group textarea.form-input {
+    height: 150px;
+}
+
+.btn-primary {
+  display: flex;
+  margin: auto;
+  width: 50%;
+  height: 40px;
+  background: #C62828;
+  border: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-primary:hover {
+  background-color: #9e2020;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 footer {
@@ -226,6 +355,11 @@ footer {
   align-items: center;
 
   border-radius: 4px 4px 0 0;
+}
+
+footer h2 {
+  margin-top: 50px;
+  color: #fff;
 }
 
 footer p {
