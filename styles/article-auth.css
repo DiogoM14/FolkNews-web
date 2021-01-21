@@ -159,7 +159,7 @@ article p {
   font-size: 24px 0 46px 0;
   color: #555555;
   margin-top: 76px;
-  text-align: left;
+  text-align: justify;
 }
 
 article p span {
@@ -291,8 +291,6 @@ article .image p {
     border-radius: 8px;
 }
 
-
-
 .form-group .form-input {
     font-size: 13px;
     line-height: 50px;
@@ -328,19 +326,6 @@ article .image p {
 .btn-primary:hover {
   background-color: #9e2020;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 footer {
   display: flex;
