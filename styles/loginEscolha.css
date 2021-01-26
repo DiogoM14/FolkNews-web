@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  --webkit-font-smoothing: antialiased;
+  background: #F3F3F3;
+}
+
+h1, h2, h3, h4, h5, h6, button {
+  color: #333333;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+@media (max-width: 765px) {
+  .title {
+    text-align: center;
+  }
+  
+  .title h3 {
+    font-size: 46px !important;
+  }
+  
+  .title h4 {
+    font-size: 36px !important;
+  }
+  
+  .login {
+    padding: 32px !important;
+    margin: 0 32px;
+    border-radius: 4px !important;
+  }
+}
+
+@media (max-width: 1600px) {
+  .container .bg-img {
+    width: 0px !important;
+  }
+  
+  @media (max-width: 1024px) {
+    .bg-img-cloud {
+      width: 0px !important;
+    }
+    
+  }
+}
+
+.title h3 span {
+  color: #C62828;
+  
+}
+.bg-img {
+  position: absolute;
+  z-index: -1;
+  width: 450px;
+  left: 0;
+  top: 29px;
+}
+
+.bg-img-cloud {
+  position: absolute;
+  z-index: -1;
+  /* width: 100%; */
+  right: 0;
+  bottom: 0;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+}
+
+.row {
+  height: 100%;
+  align-items: center;
+}
+
+.col-md-5 h3 {
+  font-weight: medium;
+  font-size: 52px;
+}
+
+.col-md-5 span {
+  color: #28EA75;
+}
+
+.col-md-5 h4 {
+  font-weight: medium;
+  font-size: 52px;
+  color: #C62828;
+}
+
+.login {
+  background: #fff;
+  padding: 37px 10px;
+  
+  
+  border-radius: 8px;
+  border: 1px solid #C2C2C2;
+}
+
+.login h1 {
+  text-align: center;
+  font-weight: medium;
+  color: #333333;
+  font-size: 36px;
+}
+
+.retangulos {
+  display: flex;
+  flex-direction: row;
+  margin: 60px 0;
+  
+}
+
+.icon-leitor {
+  width: 45px;
+  height: 45px;
+  margin-bottom: 10px;
+  background: url("../assets/icons/Leitor.svg") no-repeat;
+}
+
+.icon-editor {
+  width: 45px;
+  height: 45px;
+  margin-bottom: 10px;
+  background: url("../assets/icons/Editor.svg") no-repeat;
+}
+
+.retangulo {
+  display: flex; 
+  flex-direction: column;
+  width: 140px;
+  height: 160px;
+  background-color: #F3F3F3;
+  text-align: center;
+  margin: 0 25px ;
+  border-radius: 8px;
+  justify-content: center;
+  cursor: pointer;
+  transition: background 0.5s;
+}
+
+.retangulo:hover {
+  background-color: #C62828;
+}
+
+.retangulos:hover img {
+  opacity: 0;
+}
+
+.retangulo:hover .icon-editor {
+  background: url("../assets/icons/editor-white.svg") no-repeat;
+}
+
+.retangulo:hover .icon-leitor {
+  background: url("../assets/icons/leitor-white.svg") no-repeat;
+}
+
+.retangulo:hover h2 {
+  color: #f3f3fe;
+}
+
+.retangulo h2 {
+  font-size: 18px;
+  color: #555555;
+  font-weight: medium;
+}
+
+.button-wapper {
+  display: flex;
+  width: 100%;
+  margin-top: 20px;
+  justify-content: center;
+  
+}
+
+.btn-primary {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  background: #C62828;
+  border: none;
+  font-weight: 700;
+  border-radius: 20px;
+  
+  transition: 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #C62828;
+  opacity: 0.3;
+  border: none;
+}

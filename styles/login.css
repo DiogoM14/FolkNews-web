@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  --webkit-font-smoothing: antialiased;
+  background: #F3F3F3;
+}
+
+h1, h2, h3, h4, h5, h6, button {
+  color: #333333;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+@media (max-width: 765px) {
+  .title {
+    text-align: center;
+  }
+
+  .title h3 {
+    font-size: 46px !important;
+  }
+
+  .title h4 {
+    font-size: 36px !important;
+  }
+
+  .login {
+    padding: 32px !important;
+    margin: 0 32px;
+    border-radius: 4px !important;
+  }
+}
+
+  @media (max-width: 1600px) {
+  .container .bg-img {
+    width: 0px !important;
+  }
+
+  @media (max-width: 1024px) {
+    .bg-img-cloud {
+      width: 0px !important;
+    }
+
+  }
+}
+
+.bg-img {
+  position: absolute;
+  z-index: -1;
+  width: 450px;
+  left: 0;
+  top: 29px;
+}
+
+.bg-img-cloud {
+  position: absolute;
+  z-index: -1;
+  /* width: 100%; */
+  right: 0;
+  bottom: 0;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+}
+
+.row {
+  height: 100%;
+  align-items: center;
+}
+
+.col-md-5 h1 {
+  font-weight: bold;
+  margin-bottom: 30px;
+  font-size: 38px;
+  color: #C62828;
+}
+
+.col-md-5 h3 {
+  font-weight: medium;
+  font-size: 52px;
+}
+
+.col-md-5 span {
+  color: #C62828;
+}
+
+.col-md-5 h4 {
+  font-weight: medium;
+  font-size: 52px;
+  color: #C62828;
+}
+
+.login {
+  background: #fff;
+  padding: 37px 60px;
+  
+  border-radius: 8px;
+  border: 1px solid #C2C2C2;
+}
+
+.login h1 {
+  text-align: center;
+  font-weight: medium;
+  color: #333333;
+}
+
+form .form-group label {
+  color: #555555;
+  margin: 0;
+  font-weight: 700;
+}
+
+form .form-check .form-check-label {
+  color: #C62828;
+}
+
+form .form-group input {
+  background: #F3F3F3;
+  border: none;
+}
+
+form .form-group input:focus {
+  background: #C2C2C2;
+  border: none;
+}
+
+form .form-check input {
+  background: #F3F3F3;
+}
+
+.btn-primary {
+  width: 100%;
+  height: 50px;
+  background: #C62828;
+  border: none;
+  font-weight: 700;
+
+  transition: 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #C62828;
+  opacity: 0.3;
+  border: none;
+}
+
+hr {
+  background: #C2C2C2;
+}
+
+.register-section {
+  display: flex;
+  text-align: center;
+  font-weight: medium;
+  font-size: 15px;
+}
+
+.login .register-section h5, h6 {
+  font-weight: medium;
+  font-size: 15px;
+}
+
+.login h5 {
+  color: #333333;
+}
+
+.login .register-section a {
+  text-decoration: none;
+}
+
+.login .register-section h6 {
+  color: #C62828;
+
+  transition: 0.3s;
+}
+
+.login .register-section h6:hover, h6::selection {
+  color: #8b1919;
+}

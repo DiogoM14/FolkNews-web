@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  --webkit-font-smoothing: antialiased;
+  background: #F3F3F3;
+}
+
+h1, h2, h3, h4, h5, h6, button {
+  color: #333333;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+@media (max-width: 765px) {
+  .title {
+    text-align: center;
+  }
+
+  .title h3 {
+    font-size: 46px !important;
+  }
+
+  .step-bar img {
+    width: 100%;
+  }
+
+  .login {
+    padding: 32px !important;
+    margin: 0 32px;
+    border-radius: 4px !important;
+  }
+
+  .btn-primary {
+    width: 50% !important;
+    height: 76px !important;
+    border-radius: 32px !important;
+  }
+}
+
+@media (max-width: 1300px) {
+  .container .bg-img {
+    width: 0px !important;
+  }
+  
+  @media (max-width: 1024px) {
+    .bg-img-cloud {
+      width: 0px !important;
+    }
+
+  }
+}
+
+.bg-img {
+  position: absolute;
+  z-index: -1;
+  width: 450px;
+  left: 0;
+  top: 29px;
+}
+
+.bg-img-cloud {
+  position: absolute;
+  z-index: -1;
+  /* width: 100%; */
+  right: 0;
+  bottom: 0;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+}
+
+.row {
+  height: 100%;
+  align-items: center;
+}
+
+.col-md-5 h3 {
+  font-weight: medium;
+  font-size: 52px;
+}
+
+.col-md-5 h3 span {
+  font-weight: medium;
+  font-size: 52px;
+  color: #C62828;
+}
+
+.login {
+  background: #fff;
+  padding: 37px 60px;
+  
+  border-radius: 8px;
+  border: 1px solid #C2C2C2;
+}
+
+
+.login .step-bar {
+  margin-bottom: 37px;
+}
+
+.login h1 {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.login .check-img {
+  display: flex;
+  width: 100%;
+
+  margin: 54px 0;
+  text-align: center;
+}
+
+.check-img img {
+  width:  82px;
+}
+
+.button-wapper {
+  display: flex;
+  width: 100%;
+  margin-top: 20px;
+  justify-content: center;
+
+}
+
+.btn-primary {
+  width: 50%;
+  height: 50px;
+  text-align: center;
+  background: #C62828;
+  border: none;
+  font-weight: 700;
+  border-radius: 20px;
+
+  transition: 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #C62828;
+  opacity: 0.3;
+  border: none;
+}

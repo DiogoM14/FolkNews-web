@@ -1,0 +1,295 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  --webkit-font-smoothing: antialiased;
+  background: #f3f3f3;
+  overflow: hidden
+  /* justify-content: center !important; */
+}
+
+h1, h2, h3, h4, h5, h6, span {
+  color: rgb(255,255,255);
+  font-family: 'Ubuntu', sans-serif;
+}
+
+@media (max-width: 1250px) {
+  .navbar .right a {
+    margin-left: 20px !important;
+  }
+  
+  .navbar .right a img {
+    width: 40px !important;
+  }
+  
+  .navbar-light .navbar-brand img {
+    width: 130px !important;
+  }
+}
+
+@media (max-width: 1350px) {
+  .mb-3 {
+    max-width: 100% !important;
+    
+  }
+}
+
+@media (max-width: 1700px) {
+  .news {
+    width: 18rem !important;
+  }
+}
+
+/* @media (min-width: 2000px) {
+  .col-md-12 {
+    max-width: 90%;
+    margin: auto;
+  }
+  
+  article {
+    max-width: 30%;
+    margin: auto;
+  }
+} */
+
+@media (min-width: 980px) {
+  article {
+    max-width: 50%;
+    margin: auto;
+  } 
+}
+
+.col-md-12 {
+  padding: 0;
+  text-align: center;
+}
+
+.modal-auth {
+  display: flex;
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100vh;
+  
+  background-color: rgba(0,0,0,.7);
+  left: 0;
+}
+
+.modal-bodyy {
+  display: flex;
+  margin: auto;
+}
+
+.login {
+  min-width: 20vw;
+  background: #fff;
+  padding: 37px 60px;
+  border-radius: 8px;
+  border: 1px solid #C2C2C2;
+}
+
+.login h1 {
+  color: #333333;
+  margin: 0 0 20px 0;
+}
+
+.form-bottom {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+.form-bottom img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.form-bottom h5 {
+  text-decoration: none;
+  font-size: 18px;
+}
+
+
+form .form-group label {
+  color: #555555;
+  margin: 0;
+  font-weight: 700;
+  right: 0;
+}
+
+form .form-check .form-check-label {
+  color: #C62828;
+}
+
+form .form-group input {
+  background: #F3F3F3;
+  border: none;
+}
+
+form .form-group input:focus {
+  background: #C2C2C2;
+  border: none;
+}
+
+form .form-check input {
+  background: #F3F3F3;
+}
+
+.btn-primary {
+  width: 100%;
+  height: 50px;
+  background: #C62828;
+  border: none;
+  font-weight: 700;
+  
+  transition: 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #C62828;
+  opacity: 0.3;
+  border: none;
+}
+
+hr {
+  background: #C2C2C2;
+}
+
+.register-section {
+  display: flex;
+  font-size: 15px;
+}
+
+.login .register-section h5, h6 {
+  font-weight: medium;
+  font-size: 15px;
+}
+
+.login h5 {
+  color: #333333;
+}
+
+.login .register-section a {
+  text-decoration: none;
+}
+
+.login .register-section h6 {
+  color: #C62828;
+  
+  transition: 0.3s;
+}
+
+.login .register-section h6:hover, h6::selection {
+  color: #8b1919;
+}
+
+.navbar-light {
+  padding: 16px 58px 0 58px !important;
+  margin-bottom: 50px;
+}
+
+.navbar-light .navbar-brand .user {
+  width: 150px;
+}
+
+.navbar-light .right {
+  display: flex;
+  font-size: 22px;
+  font-weight: 500;
+  align-items: center;
+}
+
+.navbar .right a {
+  
+  color: #333333;
+  font-family: "Ubuntu";
+  text-decoration: none;
+  margin-left: 30px;
+}
+
+.navbar .right .flag {
+  color: #C62828;
+  font-family: "Ubuntu";
+  text-decoration: none;
+}
+
+.input-group-text {
+  background: #fff;
+}
+
+h1 {
+  color: #C62828;
+  margin-top: 90px;
+}
+
+p {
+  font-size: 24px;
+  color: #555555;
+  margin-bottom: 56px;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  
+  align-items: center;
+}
+
+article .card {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  width: 100% !important;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: 8px !important;
+}
+
+.card-body {
+  padding: 10px 16px;
+  text-align: left;
+}
+
+.card-body p {
+  margin: 0;
+}
+
+.card-body .card-autor {
+  font-size: 18px;
+  color: #333333;
+  font-weight: 700;
+}
+
+.card-body .card-text {
+  font-size: 18px;
+  color: #555555;
+}
+
+article p {
+  font-size: 24px 0 46px 0;
+  color: #555555;
+  margin-top: 76px;
+  text-align: left;
+}
+
+article p span {
+  cursor: pointer;
+  color: #C62828;
+}
+
+article .image p {
+  margin: 0;
+  font-size: 18px;
+  color: #555555;
+}
